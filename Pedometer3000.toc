@@ -1,0 +1,9 @@
+## Interface: 16001
+## Author: Mush
+## Version: 0.1.0
+## Title: Pedometer 3000
+## Notes: Enregistre la distance parcourue à pied par le joueur
+## SavedVariables: Pedometer3000DB
+## IconTexture: Interface\AddOns\ForeverPTRWorldMap\Icon.png
+
+Pedometer3000.lua
