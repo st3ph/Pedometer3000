@@ -10,15 +10,9 @@ Pedometer3000DB = Pedometer3000DB or {
 local lastPosition = nil
 local lastMapID = nil
 local timer = 0
-local CHECK_INTERVAL = 0.25 -- Vérification plus fréquente (4x par seconde) pour la précision des virages
-
--- Constante de conversion : 1 yard de WoW = 0.9144 mètre
+local CHECK_INTERVAL = 0.25
 local YARDS_TO_METERS = 0.9144
-
--- Tampon pour accumuler les fractions de mètres réels
 local distanceBuffer = 0.0
-
--- Seuil minimal en yards (~5 cm) sous lequel on ignore la variation
 local MIN_MOVEMENT_THRESHOLD = 0.05
 
 ---------------------------------------------------------
